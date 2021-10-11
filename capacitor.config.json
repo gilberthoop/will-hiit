@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "will-hiit",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

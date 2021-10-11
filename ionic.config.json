@@ -1,0 +1,7 @@
+{
+  "name": "will-hiit",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
