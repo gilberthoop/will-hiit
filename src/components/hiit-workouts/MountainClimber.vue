@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>High Knees</h1>
+        <h1>Mountain Climbers</h1>
         <div
             v-if="workoutTimer !== workoutDuration"
         >
@@ -18,7 +18,7 @@
 
 <script>
 export default {
-    name: 'HighKnee',
+    name: 'MountainClimber',
 
     props: {
         workoutDuration: Number,
