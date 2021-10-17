@@ -12,17 +12,17 @@
         </ion-toolbar>
       </ion-header>
       
-      <ExploreContainer name="Workouts page" />
+      <WorkoutSection name="Workouts page" />
     </ion-content>
   </ion-page>
 </template>
 
 <script>
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import ExploreContainer from '@/components/ExploreContainer.vue';
+import WorkoutSection from '@/components/WorkoutSection.vue';
 
 export default  {
   name: 'Workouts',
-  components: { ExploreContainer, IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
+  components: { WorkoutSection, IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
 }
 </script>
